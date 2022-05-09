@@ -1,0 +1,13 @@
+[2022-05-05T15:56:31.381] [ERROR] auth.service.js - TypeError: Cannot read property 'create' of undefined
+    at L:\Documents\Stafforshire University\Enterprises System\REPO\Greenline\app\services\auth.service.js:55:31
+    at JWT.generate (L:\Documents\Stafforshire University\Enterprises System\REPO\Greenline\app\util\jwt.js:28:9)
+    at L:\Documents\Stafforshire University\Enterprises System\REPO\Greenline\app\services\auth.service.js:51:44
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2022-05-05T15:56:31.387] [ERROR] auth.controller.js - TypeError: Cannot read property 'create' of undefined
+    at L:\Documents\Stafforshire University\Enterprises System\REPO\Greenline\app\services\auth.service.js:55:31
+    at JWT.generate (L:\Documents\Stafforshire University\Enterprises System\REPO\Greenline\app\util\jwt.js:28:9)
+    at L:\Documents\Stafforshire University\Enterprises System\REPO\Greenline\app\services\auth.service.js:51:44
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[2022-05-05T15:56:38.931] [ERROR] auth.controller.js - Error: Invalid password!!
+    at L:\Documents\Stafforshire University\Enterprises System\REPO\Greenline\app\services\auth.service.js:42:42
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
